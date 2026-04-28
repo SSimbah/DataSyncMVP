@@ -77,4 +77,4 @@ Use the included sample files to test the tool:
 - **Streamlit** — UI framework
 - **Pandas** — Data comparison engine
 - **OpenPyXL** — Excel export
-- **Anthropic SDK** — AI findings summary (Claude)
+- **Openai SDK** — AI findings summary (Openai)

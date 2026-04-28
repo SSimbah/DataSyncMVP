@@ -1,0 +1,15 @@
+emp_id,first_name,last_name,department,salary,email,hire_date,status
+E001,Alice,Johnson,Engineering,95000,alice.j@company.com,2020-03-15,Active
+E002,Bob,Smith,Marketing,72000,bob.s@company.com,2019-07-01,Active
+E003,Carol,White,Engineering,88000,carol.w@company.com,2021-01-10,Active
+E004,David,Brown,HR,65000,david.b@company.com,2018-11-20,Active
+E005,Eve,Davis,Finance,78000,eve.d@company.com,2022-05-30,Active
+E006,Frank,Miller,Engineering,102000,frank.m@company.com,2017-09-12,Active
+E007,Grace,Wilson,Marketing,69000,grace.w@company.com,2023-02-14,Active
+E008,Henry,Moore,Finance,81000,henry.m@company.com,2020-08-25,Inactive
+E009,Iris,Taylor,HR,63000,iris.t@company.com,2021-11-03,Active
+E010,Jack,Anderson,Engineering,91000,jack.a@company.com,2019-04-17,Active
+E011,Kate,Thomas,Marketing,74000,kate.t@company.com,2022-09-08,Active
+E012,Liam,Jackson,Engineering,97000,,2018-06-22,Active
+E013,Mia,White,Finance,83000,mia.w@company.com,2020-12-01,Active
+E002,Bob,Smith,Marketing,72000,bob.s@company.com,2019-07-01,Active

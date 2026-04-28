@@ -41,8 +41,8 @@ The app will open at `http://localhost:8501`.
 
 ## 🔑 API Key (for AI Summary)
 
-Enter your **Anthropic API key** in the sidebar (`sk-ant-...`).  
-Get one at: https://console.anthropic.com
+Enter your **Openai API key** in the sidebar (`sk-ant-...`).  
+Get one at: https://openai.com/api/
 
 The AI summary is optional — all comparison features work without it.
 

@@ -388,7 +388,7 @@ def compare_datasets(src: pd.DataFrame, tgt: pd.DataFrame,
     return results
 
 
-# ── AI Summary via Anthropic ──────────────────────────────────────────────────
+# ── AI Summary via Openai ──────────────────────────────────────────────────
 # def generate_ai_summary(summary: dict, api_key: str) -> str:
 #     prompt = f"""You are a data quality analyst. Summarize the following dataset reconciliation results concisely in 3-5 sentences. Focus on the most critical issues, their potential business impact, and one actionable recommendation.
 
@@ -643,7 +643,7 @@ if st.session_state.get("ran"):
         with ai_col:
             gen_ai = st.button("✨ Generate AI Summary")
         if gen_ai:
-            with st.spinner("Claude is analysing results…"):
+            with st.spinner("AI is analysing results…"):
                 try:
                     ai_text = generate_ai_summary(s, api_key)
                     st.session_state["ai_summary"] = ai_text
@@ -658,7 +658,7 @@ if st.session_state.get("ran"):
             </div>
             """, unsafe_allow_html=True)
     else:
-        st.caption("💡 Enter an Anthropic API key in the sidebar to enable AI-powered analysis.")
+        st.caption("💡 Enter an Openai API key in the sidebar to enable AI-powered analysis.")
 
     # ── Detailed results tabs ─────────────────────────────────────────────────
     st.markdown("---")
